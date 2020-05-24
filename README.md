@@ -16,26 +16,13 @@ pip install pylinearalgebra
 import pylinearalgebra as pg
 
 # matrix multiplication
-pg.matrix_multiplication(first_matrix = A, second_matrix = B)
+pg.matrix_operation(first_matrix = A, second_matrix = B)
+```
+```python
+import pylinearalgebra as pg
 
-# iterative solutions of linear systems
-pg.iterative_solutions(coefficients_matrix = A, 
-                       constants_vector = b, 
-                       initial_guess = None, 
-                       iterative_method = 'Jacobi', 
-                       relaxation_parameter = None, 
-                       matrix_method = True, 
-                       tolerance = 1e-6, 
-                       maximum_iterations = 10, 
-                       decimal_points = 8)
-# linear regression
-pg.linear_regression(dependent_variable = y, 
-                  independent_variables = x, 
-                  slr_matrix = False, 
-                  out_put = [], 
-                  significance_level = 0.05, 
-                  prediction = None, 
-                  decimal_points = 8)
+# matrix multiplication
+pg.matrix_multiplication(first_matrix = A, second_matrix = B)
 ```
 
 ## Support
