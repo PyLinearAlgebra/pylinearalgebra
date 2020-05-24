@@ -24,11 +24,6 @@ import pylinearalgebra as pg
 # matrix multiplication
 pg.matrix_multiplication(first_matrix = A, second_matrix = B)
 ```
-
-## Support
-
-For any support and/or training on any of the functions in this package, send me an email at: pylinearalgebralibrary@cmstatistics2010@gmail.com.
-
 ## Roadmap
 
 Future releases aim to make pylinearalgebra a for linear algebra
